@@ -50,37 +50,21 @@
   display: flex;
 }
 
-.event-tittle {
-  box-sizing: border-box;
-  color: rgb(51, 51, 51);
-  font-family: "Roboto";
-  font-size: 36px;
-  font-style: normal;
-  font-weight: 500;
-  line-height: 39.6px;
-  padding: 0px 100px 0px 100px;
-}
-
 .event-image {
   display: flex;
   flex-direction: column;
-  border: none;
   flex: 70%;
+  padding: 0px 50px 0px 50px;
 }
 
 .event-summary {
   flex-direction: column;
   display: flex;
-  border: none;
+  border: 1px black solid;
   flex: 30%;
   padding: 20px;
   align-items: flex-start;
   justify-content: space-around;
-}
-
-.date {
-  display: flex;
-  flex-direction: column;
 }
 
 .tag {
@@ -88,6 +72,30 @@
   border: none;
   background-color: #f19000;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.date {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px black solid;
+  border-bottom: 1px black solid;
+  width: 500px;
+  margin-top: -36px;
+  padding: 25px 0px 20px 0px;
+}
+
+.event-day {
+  border: 1px solid black;
+  padding-bottom: 20px;
+  margin-top: -15px;
+}
+.event-location {
+  border: 1px solid black;
+  padding-bottom: 20px;
+}
+
+.tag-position {
+  margin-top: -50px;
 }
 
 .tag:hover {
@@ -113,6 +121,17 @@
 
 .palabras-clave:active {
   color: #0a4fc2;
+}
+
+.event-tittle {
+  box-sizing: border-box;
+  color: rgb(51, 51, 51);
+  font-family: "Roboto";
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 39.6px;
+  padding: 0px 100px 0px 100px;
 }
 
 .titulo-del-evento {
