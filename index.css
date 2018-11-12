@@ -68,10 +68,35 @@
 }
 
 .tag {
-  border: 1px solid black;
   padding: 4px 4px 4px 4px;
-  background-color: LightGray;
-  box-shadow: 4px 3px black;
+  border: none;
+  background-color: #f19000;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.3);
+}
+
+.tag:hover {
+  background-color: #faa629;
+}
+
+.tag:active {
+  background-color: #f19000;
+}
+
+.palabras-clave {
+  padding: 4px 4px 4px 4px;
+  border: none;
+  box-shadow: none;
+  background-color: #fff;
+  color: rgb(136, 136, 136);
+}
+
+.palabras-clave:hover {
+  background-color: #fff;
+  color: #448aff;
+}
+
+.palabras-clave:active {
+  color: #0a4fc2;
 }
 
 .date {
