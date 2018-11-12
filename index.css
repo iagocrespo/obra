@@ -58,19 +58,20 @@
   font-style: normal;
   font-weight: 500;
   line-height: 39.6px;
+  padding: 0px 100px 0px 100px;
 }
 
 .event-image {
   display: flex;
   flex-direction: column;
-  border: 1px black solid;
+  border: none;
   flex: 70%;
 }
 
 .event-summary {
   flex-direction: column;
   display: flex;
-  border: 1px black solid;
+  border: none;
   flex: 30%;
   padding: 20px;
   align-items: flex-start;
@@ -122,6 +123,7 @@
   font-style: normal;
   font-weight: 500;
   line-height: 39.6px;
+  padding: 0px 100px 0px 100px;
 }
 
 .otras-imagenes {
@@ -132,4 +134,9 @@
   font-style: normal;
   font-weight: 500;
   line-height: 39.6px;
+  padding: 0px 100px 0px 100px;
+}
+
+.parrafo-del-evento {
+  padding: 0px 100px 0px 50px;
 }
